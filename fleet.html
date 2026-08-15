@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Orion Nexus fleet of autonomous spacecraft, including reusable rockets, debris cleaners, shield craft, and deep-space explorers." />
+  <title>Fleet | Orion Nexus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo logo-with-text">
+        <img src="assets/images/orion-nexus-logo.png" alt="" class="logo-img" />
+        <span class="logo-text">ORION <span>NEXUS</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fleet.html" class="active">Fleet</a></li>
+          <li><a href="missions.html">Missions</a></li>
+          <li><a href="technology.html">Technology</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" style="padding-top: 8rem;">
+      <div class="section-header reveal">
+        <h2>The <span class="section-title-accent">Fleet</span></h2>
+        <p>Six autonomous spacecraft classes engineered for launch, cleanup, protection, resource harvesting, and deep-space discovery.</p>
+      </div>
+
+      <div class="card-grid">
+        <article class="card fleet-card reveal">
+          <img src="assets/images/orion-a1.png" alt="ORION-A1" class="card-image" />
+          <span class="role-tag">Launch &amp; Return</span>
+          <h3>ORION-A1</h3>
+          <p>Autonomous Space Utility Rocket. 100% automated, crewless, reusable.</p>
+          <ul class="spec-list">
+            <li><span>Height</span><span>42.7 m</span></li>
+            <li><span>Payload</span><span>21,000 kg</span></li>
+            <li><span>Reusability</span><span>100 missions</span></li>
+          </ul>
+          <div class="card-actions"><button class="btn btn-secondary" data-modal="orion-a1">View Specs</button></div>
+        </article>
+
+        <article class="card fleet-card reveal">
+          <img src="assets/images/aegis-guardian.png" alt="Aegis Guardian" class="card-image" />
+          <span class="role-tag">Shield &amp; Rescue</span>
+          <h3>Aegis Guardian</h3>
+          <p>Detect, deflect, and disable debris before it threatens satellites.</p>
+          <ul class="spec-list">
+            <li><span>Length</span><span>~120 m</span></li>
+            <li><span>Crew</span><span>2–4</span></li>
+            <li><span>Range</span><span>Unlimited</span></li>
+          </ul>
+          <div class="card-actions"><button class="btn btn-secondary" data-modal="aegis-guardian">View Specs</button></div>
+        </article>
+
+        <article class="card fleet-card reveal">
+          <img src="assets/images/kinetic-harvester.png" alt="Kinetic-Harvester" class="card-image" />
+          <span class="role-tag">Resource Harvesting</span>
+          <h3>Kinetic-Harvester</h3>
+          <p>Neutralize high-speed boulders and process them into fuel.</p>
+          <ul class="spec-list">
+            <li><span>Length</span><span>200–300 m</span></li>
+            <li><span>Crew</span><span>Minimal</span></li>
+            <li><span>Status</span><span>Concept</span></li>
+          </ul>
+          <div class="card-actions"><button class="btn btn-secondary" data-modal="kinetic-harvester">View Specs</button></div>
+        </article>
+
+        <article class="card fleet-card reveal">
+          <img src="assets/images/orion-d1.png" alt="ORION-D1" class="card-image" />
+          <span class="role-tag">Debris Cleaner</span>
+          <h3>ORION-D1</h3>
+          <p>Detect, capture, process, and dispose of orbital debris.</p>
+          <ul class="spec-list">
+            <li><span>Height</span><span>52 m</span></li>
+            <li><span>Payload</span><span>15,000 kg</span></li>
+            <li><span>Reusability</span><span>50 missions</span></li>
+          </ul>
+          <div class="card-actions"><button class="btn btn-secondary" data-modal="orion-d1">View Specs</button></div>
+        </article>
+
+        <article class="card fleet-card reveal">
+          <img src="assets/images/orion-x1.png" alt="ORION-X1" class="card-image" />
+          <span class="role-tag">Debris Sweeper</span>
+          <h3>ORION-X1</h3>
+          <p>Continuous 24/7 debris removal and recycling operations.</p>
+          <ul class="spec-list">
+            <li><span>Length</span><span>~85 m</span></li>
+            <li><span>Mission life</span><span>10+ years</span></li>
+            <li><span>Power</span><span>Solar + Battery</span></li>
+          </ul>
+          <div class="card-actions"><button class="btn btn-secondary" data-modal="orion-x1">View Specs</button></div>
+        </article>
+
+        <article class="card fleet-card reveal">
+          <img src="assets/images/solaris-sentinel.png" alt="Solaris Sentinel Explorer" class="card-image" />
+          <span class="role-tag">Deep-Space Explorer</span>
+          <h3>Solaris Sentinel</h3>
+          <p>Long-duration exploration, planetary analysis, and life-support.</p>
+          <ul class="spec-list">
+            <li><span>Length</span><span>~150 m</span></li>
+            <li><span>Crew</span><span>4–6</span></li>
+            <li><span>Max velocity</span><span>0.25c</span></li>
+          </ul>
+          <div class="card-actions"><button class="btn btn-secondary" data-modal="solaris-sentinel">View Specs</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" style="background: rgba(0,0,0,0.22);">
+      <div class="section-header reveal">
+        <h2>💰 Total Estimated <span class="section-title-accent">Industry Value</span></h2>
+        <p>2026 conceptual industry estimate for advanced flight-ready Orion Nexus systems.</p>
+      </div>
+
+      <div class="estimate-table-wrapper reveal">
+        <table class="estimate-table">
+          <thead>
+            <tr>
+              <th>Spacecraft</th>
+              <th>Estimated 2026 industry price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Kinetic-Harvester</td><td>₹30,000–60,000 crore</td></tr>
+            <tr><td>Aegis Guardian</td><td>₹4,000–8,000 crore</td></tr>
+            <tr><td>Solaris Sentinel</td><td>₹15,000–30,000 crore</td></tr>
+            <tr><td>Orion-A1</td><td>₹1,500–3,000 crore</td></tr>
+            <tr><td>Orion-D1</td><td>₹2,000–5,000 crore</td></tr>
+            <tr><td>Orion-X1</td><td>₹800–2,000 crore</td></tr>
+            <tr class="estimate-total"><td>TOTAL</td><td>₹53,300–108,000 crore</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="estimate-midpoint reveal">
+        <h3>⭐ Midpoint estimate</h3>
+        <p>Taking the middle of each range:</p>
+        <ul>
+          <li>₹45,000 crore + ₹6,000 crore + ₹22,500 crore + ₹2,250 crore + ₹3,500 crore + ₹1,400 crore</li>
+        </ul>
+        <p>= <strong>₹80,650 crore</strong></p>
+        <p>So, if all six were actually developed as advanced flight-ready systems, a reasonable 2026 conceptual industry estimate would be approximately:</p>
+        <div class="estimate-highlight">💰 ₹80,000–81,000 CRORE TOTAL</div>
+        <p>That's about <strong>₹806.5 billion</strong> (₹80,650 crore).</p>
+      </div>
+
+      <div class="estimate-disclaimer reveal">
+        <p><strong>Important:</strong> This is not a real quotation from an aerospace company. The designs include technologies that don't currently exist at the claimed performance levels—especially the near-light-speed velocities, enormous kinetic-energy harvesting and some shielding concepts—so the uncertainty is extremely large. The estimate is meant to put the concepts on an industry-scale cost spectrum, not predict an actual procurement price.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="modal" id="fleet-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <h2 class="modal-title" id="modal-title"></h2>
+      <img class="modal-image" src="" alt="" />
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-logo">ORION <span>NEXUS</span></div>
+    <p class="footer-tagline">Autonomous today, limitless tomorrow.</p>
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="fleet.html">Fleet</a></li>
+      <li><a href="missions.html">Missions</a></li>
+      <li><a href="technology.html">Technology</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p class="copyright">© 2026 Orion Nexus. Built for autonomous space exploration.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
