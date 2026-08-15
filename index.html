@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Orion Nexus — autonomous spacecraft, debris removal, and deep-space exploration systems." />
+  <title>Orion Nexus | Autonomous Space Systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo logo-with-text">
+        <img src="assets/images/orion-nexus-logo.png" alt="" class="logo-img" />
+        <span class="logo-text">ORION <span>NEXUS</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="fleet.html">Fleet</a></li>
+          <li><a href="missions.html">Missions</a></li>
+          <li><a href="technology.html">Technology</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <canvas id="starfield" aria-hidden="true"></canvas>
+    <div class="hero-content reveal">
+      <p class="hero-subtitle">Autonomous Space Systems</p>
+      <h1>Launch. Explore. Protect. Reuse.</h1>
+      <p>Orion Nexus designs the next generation of crewless spacecraft — from reusable launch vehicles and debris sweepers to deep-space explorers and orbital guardians.</p>
+      <div class="hero-actions">
+        <a href="fleet.html" class="btn btn-primary">Explore the Fleet</a>
+        <a href="missions.html" class="btn btn-secondary">Mission Profiles</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="section">
+      <div class="section-header reveal">
+        <h2>Engineering the <span class="section-title-accent">Future of Space</span></h2>
+        <p>Every Orion Nexus vehicle is built around the same core principles: full autonomy, reusability, AI-driven decision making, and sustainable operation in Earth orbit and beyond.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card reveal">
+          <div class="card-icon">🤖</div>
+          <h3>100% Autonomous</h3>
+          <p>From launch to landing, our craft navigate, decide, and execute missions without human crews.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">🔄</div>
+          <h3>Reusable by Design</h3>
+          <p>Vertical landing, self-inspection, and automated refueling keep vehicles ready for dozens to hundreds of flights.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">🛡️</div>
+          <h3>Orbit Protection</h3>
+          <p>Debris detection, capture, recycling, and shielding technologies make space safer for satellites and future missions.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">🌌</div>
+          <h3>Deep-Space Ready</h3>
+          <p>Long-duration explorers carry closed-loop life support, science pods, and plasma drive systems to the outer solar system.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" style="background: rgba(0,0,0,0.22);">
+      <div class="section-header reveal">
+        <h2>Featured <span class="section-title-accent">Fleet</span></h2>
+        <p>Six spacecraft classes. One unified vision for autonomous space operations.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card fleet-card reveal">
+          <img src="assets/images/orion-a1.png" alt="ORION-A1 autonomous reusable rocket" class="card-image" />
+          <h3>ORION-A1</h3>
+          <p>Autonomous utility rocket for payload launch, orbital service, and precision return.</p>
+          <div class="card-actions"><a href="fleet.html" class="btn btn-secondary">View Fleet</a></div>
+        </article>
+        <article class="card fleet-card reveal">
+          <img src="assets/images/aegis-guardian.png" alt="Aegis Guardian debris shield and rescue spacecraft" class="card-image" />
+          <h3>Aegis Guardian</h3>
+          <p>Debris shield and rescue spacecraft for active satellite and station protection.</p>
+          <div class="card-actions"><a href="fleet.html" class="btn btn-secondary">View Fleet</a></div>
+        </article>
+        <article class="card fleet-card reveal">
+          <img src="assets/images/kinetic-harvester.png" alt="Kinetic-Harvester spacecraft" class="card-image" />
+          <h3>Kinetic-Harvester</h3>
+          <p>High-speed boulder interceptor that harvests kinetic energy and converts debris to fuel.</p>
+          <div class="card-actions"><a href="fleet.html" class="btn btn-secondary">View Fleet</a></div>
+        </article>
+        <article class="card fleet-card reveal">
+          <img src="assets/images/orion-d1.png" alt="ORION-D1 debris cleaner" class="card-image" />
+          <h3>ORION-D1</h3>
+          <p>Autonomous debris cleaner with capture, processing, and safe disposal systems.</p>
+          <div class="card-actions"><a href="fleet.html" class="btn btn-secondary">View Fleet</a></div>
+        </article>
+        <article class="card fleet-card reveal">
+          <img src="assets/images/orion-x1.png" alt="ORION-X1 debris sweeper" class="card-image" />
+          <h3>ORION-X1</h3>
+          <p>Long-endurance debris sweeper operating 24/7 with solar-electric propulsion.</p>
+          <div class="card-actions"><a href="fleet.html" class="btn btn-secondary">View Fleet</a></div>
+        </article>
+        <article class="card fleet-card reveal">
+          <img src="assets/images/solaris-sentinel.png" alt="Solaris Sentinel Explorer" class="card-image" />
+          <h3>Solaris Sentinel</h3>
+          <p>Deep-space explorer with rotating habitat ring and modular science pods.</p>
+          <div class="card-actions"><a href="fleet.html" class="btn btn-secondary">View Fleet</a></div>
+        </article>
+      </div>
+
+      <div class="stats-row reveal">
+        <div class="stat"><div class="stat-value">6</div><div class="stat-label">Vehicle Classes</div></div>
+        <div class="stat"><div class="stat-value">100%</div><div class="stat-label">Autonomous</div></div>
+        <div class="stat"><div class="stat-value">100+</div><div class="stat-label">Reuse Cycles</div></div>
+        <div class="stat"><div class="stat-value">LEO</div><div class="stat-label">to Deep Space</div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-logo">ORION <span>NEXUS</span></div>
+    <p class="footer-tagline">Autonomous today, limitless tomorrow.</p>
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="fleet.html">Fleet</a></li>
+      <li><a href="missions.html">Missions</a></li>
+      <li><a href="technology.html">Technology</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p class="copyright">© 2026 Orion Nexus. Built for autonomous space exploration.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Orion Nexus for mission inquiries, partnerships, and autonomous space systems information." />
+  <title>Contact | Orion Nexus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo logo-with-text">
+        <img src="assets/images/orion-nexus-logo.png" alt="" class="logo-img" />
+        <span class="logo-text">ORION <span>NEXUS</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fleet.html">Fleet</a></li>
+          <li><a href="missions.html">Missions</a></li>
+          <li><a href="technology.html">Technology</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" style="padding-top: 8rem;">
+      <div class="section-header reveal">
+        <h2>Connect with <span class="section-title-accent">Orion Nexus</span></h2>
+        <p>Whether you are planning a payload launch, debris-removal mission, or deep-space study, our team is ready to talk.</p>
+      </div>
+
+      <form class="contact-form reveal" id="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="interest">Interest</label>
+          <select id="interest" name="interest" required>
+            <option value="" disabled selected>Select a mission type</option>
+            <option value="launch">Launch &amp; Return</option>
+            <option value="debris">Debris Removal</option>
+            <option value="shield">Shield &amp; Rescue</option>
+            <option value="harvest">Kinetic Harvesting</option>
+            <option value="explore">Deep-Space Exploration</option>
+            <option value="partnership">Partnership / Media</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us about your mission..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Transmission</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-logo">ORION <span>NEXUS</span></div>
+    <p class="footer-tagline">Autonomous today, limitless tomorrow.</p>
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="fleet.html">Fleet</a></li>
+      <li><a href="missions.html">Missions</a></li>
+      <li><a href="technology.html">Technology</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p class="copyright">© 2026 Orion Nexus. Built for autonomous space exploration.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
